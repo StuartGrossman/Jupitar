@@ -9,3 +9,8 @@ In this app I am using a few gems to help me with my development process.
 * pry_rails - a very useful tool in seeing what is going wrong with certain lines of code inside my application. It allows me to run my sever, and then stop it at the particular method or line of code where I believe there to be a problem. Break down the objects and identify where the information is missing or being corrupted.
 * biding_of_caller - allows you to have access to the method binding.of_caller("stack level") and go back inside a stack of methods or objects and replace values within those methods to test the output
 * pry-byebug - Allows me to add step, next, finish, and continue commands to my breakpoints that I set inside my code using pry. Basically you can edit your pry breaks in almost any way.
+* Bundle Install - This command takes all your gems inside your Gemfile and updates them to their current versions by pulling the information from the offical gem library
+* we use Postgres instead of sqlite3 because of its compatiblity with heroku. Sqlite3 does not work with heroku.
+Explain what you accomplished in this lesson
+What is bootstrap?
+What is responsive design?
